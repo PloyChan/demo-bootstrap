@@ -10,11 +10,5 @@ import {ActivatedRoute, Router, RouterLink, RouterLinkActive, RouterOutlet} from
 })
 export class AppComponent {
   title = 'demo-bootstrap';
-  route = inject(Router)
-  activatedRoute = inject(ActivatedRoute)
 
-
-  routeContainer() {
-    this.route.navigate(['container'])
-  }
 }

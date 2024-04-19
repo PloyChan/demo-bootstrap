@@ -1,15 +1,14 @@
 import {Component, inject} from '@angular/core';
-import {Router} from "@angular/router";
 import {RouteHomeService} from "../../route-home.service";
 
 @Component({
-  selector: 'app-container',
+  selector: 'app-basic-grid',
   standalone: true,
   imports: [],
-  templateUrl: './container.component.html',
-  styleUrl: './container.component.css'
+  templateUrl: './basic-grid.component.html',
+  styleUrl: './basic-grid.component.css'
 })
-export class ContainerComponent {
+export class BasicGridComponent {
   routeHomeService = inject(RouteHomeService)
 
   routeHome() {

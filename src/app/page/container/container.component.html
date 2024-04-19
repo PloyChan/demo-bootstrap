@@ -1,11 +1,48 @@
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This part is inside a .container class.</p>
-  <p>The .container class provides a responsive fixed width container.</p>
+<div class="card m-4">
+  <div class="card-header">
+    <div class="row d-flex">
+      <div class="col-6">
+        <h3>Container</h3>
+      </div>
+      <div class="col-6 text-end">
+        <button class="btn btn-outline-dark" (click)="routeHome()">ย้อนกลับ</button>
+      </div>
+
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="container bg-primary text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container class.</p>
+      <p>The .container class provides a responsive fixed width container.</p>
+    </div>
+
+    <div class="container-fluid bg-primary text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container-fluid class.</p>
+      <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
+    </div>
+
+    <div class="container p-5 my-5 border">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container-fluid class.</p>
+      <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p></div>
+
+    <div class="container p-5 my-5 bg-dark text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container-fluid class.</p>
+      <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p></div>
+
+    <div class="container p-5 my-5 bg-primary text-white">
+      <h1>My First Bootstrap Page</h1>
+      <p>This part is inside a .container-fluid class.</p>
+      <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p></div>
+
+    <div class="container-sm bg-primary">.container-sm</div>
+    <div class="container-md bg-primary">.container-md</div>
+    <div class="container-lg bg-primary">.container-lg</div>
+    <div class="container-xl bg-primary">.container-xl</div>
+    <div class="container-xxl bg-primary">.container-xxl</div>
+  </div>
 </div>
 
-<div class="container-fluid">
-  <h1>My First Bootstrap Page</h1>
-  <p>This part is inside a .container-fluid class.</p>
-  <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
-</div>
